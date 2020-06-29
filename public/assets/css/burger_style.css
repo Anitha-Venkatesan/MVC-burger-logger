@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 34px;
+    color: chocolate;
+}
+#burger-img {
+    text-align: center;
+    width: 200;
+    height:300;
+    
+}
+.table {
+    text-align: center;
+}
+.create-form {
+    text-align: center;
+}
+#submitBtn {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#burger {
+    width: 25%;
+}
+
