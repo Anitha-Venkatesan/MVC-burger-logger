@@ -20,9 +20,11 @@ $(function() {
   //devoured the burger after cicking the button
   $("button[name='devoured']").on("click", function(event) {
     var id = $(this).attr("value");
+    $(this).remove();
     var devouredTheBurger = {
-        devoured: true
+      devoured: 1
     };
+
         // Send the PUT request.
     $.ajax("/api/burgers/" + id, {
         type: "PUT",
