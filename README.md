@@ -29,10 +29,12 @@ Steps to install the node npm packages
 ### Usage
 * `git clone git@github.com:Anitha-Venkatesan/MVC-burger-logger.git`
 * `cd MVC-burger-logger`
-* Open server.js in Command Line Terminal using the command `node server.js`
+* Open server.js in Command Line Terminal using the command `MYSQL_PASSWORD=<<your mysql password goes here>> node server.js`
 
 ### Screenshots
  ![BurgerDemo](screenshot/burger-demo.png)
+ ### Heroku Deployed URL
+ [Demo](https://hidden-bayou-19245.herokuapp.com/)
  
 ### License
 * This program is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
